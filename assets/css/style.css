@@ -1,13 +1,16 @@
+/* Removes default spacing and ensures padding and border are included in every instance of width and height */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Assigns a background color to the whole page */
 body {
     background-color: #d9dcd6;
 }
 
+/* Sets color, font, and spacing for the navigation bar */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ header {
     color: #ffffff;
 }
 
+/* Aligns company name vertically in the navigation bar */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Gives a different color to a select portion of the company name in the nav bar */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Places links in the nav bar to the right of the header, as well as font styling and spacing */
 header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ header div {
     font-size: 20px;
 }
 
+/* Removes bullet points */
 header div ul {
     list-style-type: none;
 }
 
+/* Aligns links horizontally in nav bar */
 header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Removes underline and sets colors for the links in the navigation bar */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Every paragraph will follow this font size */
 p {
     font-size: 16px;
 }
 
+/* Populates and styles the hero section */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +70,26 @@ p {
     background-position: center;
 }
 
+/* Image will be placed on the left of its section */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Image will be placed on the right of its section */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Situates the page's left-side content */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Situates the page's right-side content */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,49 +101,20 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* Determines each benefits spacing and color */
+.benefit-info {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* Aligns and properly-spaces the heading of each benefit displayed */
+.benefit-info h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+/* Styles each benefit's icon to be properly centered and spaced */
+.benefit-info img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
