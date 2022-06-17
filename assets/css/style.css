@@ -10,6 +10,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* ".header" was changed for "header" */
 /* Sets color, font, and spacing for the navigation bar */
 header {
     padding: 20px;
@@ -82,6 +83,7 @@ p {
     margin-left: 25px;
 }
 
+/* From line 88 to 144, I removed unnecessary repetitive styling due to an error in attribute "class" usage */
 /* Situates the page's left-side content */
 .content {
     width: 75%;
@@ -141,6 +143,7 @@ p {
     max-width: 150px;
 }
 
+/* ".footer" was changed for "footer" */
 /* Properly styles the footer of the page */
 footer {
     padding: 30px;

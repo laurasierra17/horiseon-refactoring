@@ -3,6 +3,8 @@
     <!-- The head tag includes indication of the character set, a link to the stylesheet, and a descriptive title -->
     <head>
         <meta charset="UTF-8" />
+        <!-- Included the type attribute for best practice. While I understand the browser sees the rel attribute
+        and assumes its type, I prefer to explicitly state the media type of the linked document. -->
         <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
         <!-- Descriptive title of the webpage -->
         <title>Horiseon Marketing Agency</title>
@@ -10,6 +12,8 @@
 
     <body>
         <!-- This is the navigation bar of the site -->
+        <!-- To create a semantic file, I've replaced the previous div element with a class
+        of header, for a header element. -->
         <header>
             <h1>Hori<span class="seo">seo</span>n</h1>
             <div>
@@ -26,10 +30,15 @@
                 </ul>
             </div>
         </header>
+
         <!-- Placeholder div tag for the hero image and styling -->
         <div class="hero"></div>
+
         <!-- Left-hand side of the page with information of the company's specialty as a marketing agency -->
         <div class="content">
+            <!-- For the following three div tags, I replaced their previous class attributes (which matched its id's)
+            for one, common name since they share the same styling. This eliminates repetitive code in the stylesheet.
+            For their images, I added alternative text to each. -->
             <div id="search-engine-optimization" class="content-info">
                 <img src="./assets/images/search-engine-optimization.jpg" alt="A laptop, a cup of coffee, some pens, and a notebook with SEO terms in a table" class="float-left" />
                 <h2>Search Engine Optimization</h2>
@@ -54,6 +63,9 @@
         </div>
         <!-- Right-hand side of the page describing the benefits of working with the agency -->
         <div class="benefits">
+            <!-- For the following three div tags, I replaced their previous class attributes (each one was unique)
+            for one, common name since they share the same styling. This eliminates repetitive code in the stylesheet.
+            For their images, I added alternative text to each. -->
             <div class="benefit-info">
                 <h3>Lead Generation</h3>
                 <img src="./assets/images/lead-generation.png" alt="Icon of a wheel turning into a dollar sign"/>
@@ -77,7 +89,11 @@
             </div>
         </div>
         <!-- Footer of the page indicating authoring and other rights -->
+        <!-- To create a semantic file, I've replaced the previous div element with a class
+        of footer, for a footer element. -->
         <footer>
+            <!-- To correct the file's heading sequential order, I changed the following heading for an h4
+            from an h2. -->
             <h4>Made with ❤️️ by Horiseon</h4>
             <p>
                 &copy; 2019 Horiseon Social Solution Services, Inc.
