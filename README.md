@@ -1,4 +1,4 @@
-# horiseon-refactoring
+# Horiseon Marketing Agency - A Refactoring Project
 
 ## Description
 
@@ -11,15 +11,15 @@ To assess my understanding of HTML and CSS best practices. The first week of UC 
 ## The problems
 
 Changes I implemented:
-    1. Transformed `<div>` elements into their correct semantic element. Example: fromm `<div class="header">` to `<header>`.
-    2. Added alternative text to every image instance.
-    3. Correctly linked each link in the navigation bar with its corresponding section of the page.
-    4. Removed the existence of several one-instance classes with repeated styling.
-    5. Ensured heading elements fall in sequential order.
-    6. Reworded the title to be more concise and descriptive.
-    7. Adjusted indentation of HTML file for better readability.
-    8. Included the `type` attribute to the stylesheet link tag in the head of the HTML file.
-    9. Left descriptive comments on both the HTML and CSS files for better readability.
+- Transformed `<div>` elements into their correct semantic element. Example: fromm `<div class="header">` to `<header>`.
+- Added alternative text to every image instance.
+- Correctly linked each link in the navigation bar with its corresponding section of the page.
+- Removed the existence of several one-instance classes with repeated styling.
+- Ensured heading elements fall in sequential order.
+- Reworded the title to be more concise and descriptive.
+- Adjusted indentation of HTML file for better readability.
+- Included the `type` attribute to the stylesheet link tag in the head of the HTML file.
+- Left descriptive comments on both the HTML and CSS files for better readability.
 
 ## Technologies
 
@@ -35,3 +35,5 @@ For better user experience, I would make changes to the UI and implement more in
 ![Screenshot](stylesheet-ss.png)
 
 ## Deployed website link
+
+https://laurasierra17.github.io/horiseon-refactoring/
