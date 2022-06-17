@@ -2,7 +2,7 @@
 
 ## Description
 
-The goal of this project is to refactor a marketing agency's landing page codebase to follow accessibility standards -- so their site is optimized for search engines -- and logical and semantic structure. The website provides information of Horiseon Marketing Agency's marketing specialties and strategies as well as the benefits of partnership.
+The goal of this project is to refactor a marketing agency's landing page codebase to follow accessibility standards -- so their site is optimized for search engines -- and logical and semantic structure. The website provides information on Horiseon Marketing Agency's marketing specialties and strategies as well as the benefits of a partnership.
 
 ## The WHY
 
@@ -11,7 +11,7 @@ To assess my understanding of HTML and CSS best practices. The first week of UC 
 ## The problems
 
 Changes I implemented:
-- Transformed `<div>` elements into their correct semantic element. Example: fromm `<div class="header">` to `<header>`.
+- Transformed `<div>` elements into their correct semantic element. Example: from `<div class="header">` to `<header>`.
 - Added alternative text to every image instance.
 - Correctly linked each link in the navigation bar with its corresponding section of the page.
 - Removed the existence of several one-instance classes with repeated styling.
@@ -27,7 +27,7 @@ HTML, CSS, and Git
 
 ## Future implementations
 
-For better user experience, I would make changes to the UI and implement more interactive functionality. Currently, the user is bombarded with small text and too much information to process in 6 seconds. The website lacks call-to-action elements that prompts the user to connect with the company. The website needs to cleary and easily point out what it is that they do and how they can satify the user's demand. It lacks eye-catching functionality to hook the user.
+For a better user experience, I would make changes to the UI and implement more interactive functionality. Currently, the user is bombarded with small text and too much information to process in 6 seconds. The website lacks call-to-action elements that prompt the user to connect with the company. The website needs to clearly and easily point out what it is that they do and how it can satisfy the user's demand. Finally, I believe it lacks eye-catching functionality to hook the user.
 
 ## Screen captures of source code
 
