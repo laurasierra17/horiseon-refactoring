@@ -21,14 +21,17 @@ Changes I implemented:
     8. Included the `type` attribute to the stylesheet link tag in the head of the HTML file.
     9. Left descriptive comments on both the HTML and CSS files for better readability.
 
+## Technologies
 
-Techologies used: HTML, CSS, Git
-WHAT DOES IT DO?
+HTML, CSS, and Git
 
-JUSTIFY TECHNOLOGIES USED
+## Future implementations
 
-CHALLENGES FACED AND FEAUTURES YOU WANT TO IMPLEMENT IN THE FUTURE
+For better user experience, I would make changes to the UI and implement more interactive functionality. Currently, the user is bombarded with small text and too much information to process in 6 seconds. The website lacks call-to-action elements that prompts the user to connect with the company. The website needs to cleary and easily point out what it is that they do and how they can satify the user's demand. It lacks eye-catching functionality to hook the user.
 
-EXPLAIN THE WHAT WHY AND HOW: what was your motivation? why di dyou build this project? what problem did it solve? what did you learn? what makes your project stand out?
+## Screen captures of source code
 
-Include link to deployed application
+![Screenshot](html-ss.png)
+![Screenshot](stylesheet-ss.png)
+
+## Deployed website link
