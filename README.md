@@ -1,5 +1,9 @@
 # Horiseon Marketing Agency - A Refactoring Project
 
+## Screenshots
+Screenshot of the Horiseon Marketing Agency landing page:
+![Screenshot of the Horiseon Marketing Agency landing page](./assets/images/website-screenshot.png)
+
 ## Description
 
 The goal of this project is to refactor a marketing agency's landing page codebase to follow accessibility standards -- so their site is optimized for search engines -- and logical and semantic structure. The website provides information on Horiseon Marketing Agency's marketing specialties and strategies as well as the benefits of a partnership.
