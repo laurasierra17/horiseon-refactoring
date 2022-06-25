@@ -33,10 +33,21 @@ HTML, CSS, and Git
 
 For a better user experience, I would make changes to the UI and implement more interactive functionality. Currently, the user is bombarded with small text and too much information to process in 6 seconds. The website lacks call-to-action elements that prompt the user to connect with the company. The website needs to clearly and easily point out what it is that they do and how it can satisfy the user's demand. Finally, I believe it lacks eye-catching functionality to hook the user.
 
-## Screen captures of source code
-
-![Screenshot](html-ss.png)
-![Screenshot](stylesheet-ss.png)
+## Code Snippet
+```
+<!-- Footer of the page indicating authoring and other rights -->
+<!-- To create a semantic file, I've replaced the previous div element with a class
+of footer, for a footer element. -->
+<footer>
+    <!-- To correct the file's heading sequential order, I changed the following heading for an h4
+    from an h2. -->
+    <h4>Made with ❤️️ by Horiseon</h4>
+    <p>
+        &copy; 2019 Horiseon Social Solution Services, Inc.
+    </p>
+</footer>
+```
+For every section and refactoring I worked on, I included comments close to the ones seen above. One comment describes what the section is about, while the rest explain the refactoring changes I implemented. For future instances and collaboration purposes, I consider both types of comments necessary for familiarization.
 
 ## Deployed website link
 
